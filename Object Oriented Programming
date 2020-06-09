@@ -1,0 +1,60 @@
+Object-Oriented Programming is a way of explaing something to a computer.
+such as describing an apple(color,taste,size,etc..) or what is login.
+
+Object-Oriented Programming is a flexible, powerfull paradigm where classes represent and define concepts,
+while objects are instance of classes.
+
+The "attributes(such as color and flavor for apple)" are the characterstictics associated to a type.
+ 
+"Methods(cut into slices or eat an apple)" are the functions associated to a type.
+
+Example: 
+
+A file has attributes like Name,Date,Size, permissions, etc..
+
+A typical file object focuses on file content.
+
+"In object-oriented programming, concepts are modeled as classes and objects. 
+An idea is defined using a class, and an instance of this class is called an object. 
+Almost everything in Python is an object, including strings, lists, dictionaries, and numbers. 
+When we create a list in Python, we’re creating an object which is an instance of the list class, which represents the concept of a list. 
+Classes also have attributes and methods associated with them. 
+Attributes are the characteristics of the class, while methods are functions that are part of the class."
+
+Classes in Python:-
+type(""):- Belongs to string class. 
+.upper, .digit, etc are methods of string class.
+
+dir(""):- is Example to get attributes and methods of string class
+__add__, __ge__, are Examples of a method in string class.
+
+help(""):- shows all the documentation for methods. Written between "[]" are optional.
+"https://www.coursera.org/learn/python-crash-course/supplement/2YjP2/classes-and-objects-in-detail"
+
+Defining New Classes:- In Python calss name starts with capitol letter  
+Example:-
+
+class Apple:
+    pass (to show that body is empty)
+class Apple:
+    color = " " (Attributes)
+    flavor = " " (Attributes)
+jonagold = Apple() (We assigned apple() class to a variable)
+jonagold.color = "red" (and updating attributes)
+jonagold.flavor = "sweet" (updating attributes)
+
+"Syntax used to accees the attributes is "Dot notation""
+
+"Dot notation :- lets you accees any of the abilities the object might have(called methods) or information it might store(called attributes)"
+
+print(jonagold.color) prints "red"
+print(jonagold.flavor) prints "sweet"
+print(jonagold.color.upper()) prints RED.
+
+"We could create new instace of apple class with different attributes"
+
+golden = Apple()
+golden.color = "Yellow"
+golden.flavor = "soft"
+
+"Both jonagold and golden are instaces of the apple class. In this case they both have same attributes but different values"
