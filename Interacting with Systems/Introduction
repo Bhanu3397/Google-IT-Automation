@@ -1,0 +1,32 @@
+""Kernel - The kernel is the main core of an operating system. It talks directly to our hardware and manages our systems resources. 
+As users, we don't interact with the kernel directly. 
+Instead, we interact with the other part of the operating system called the user space. 
+The User space is basically everything outside of the kernel. 
+These are things that we interact with directly, like the system programs and user interface ""
+
+""PyPi - Python package index"" Managed by pip.
+
+https://www.coursera.org/learn/python-operating-system/lecture/PxGjb/interpreted-vs-compiled-languages
+
+#!/usr/bin/env python3("Inserting a shebang line (such as #!/usr/bin/env python3) as the first line tells the operating system what command we want to use to execute the script.")
+
+chmod +x to set file as a executable
+
+"./" represents current directory
+
+modules are helpful when you are reusing the same code in more than one location. So updating in single location is enough to update whereever the modules is used.
+"We use the import command to import any module located in the PATH directory. We can also use import as to assign a localName variable to the imported module."
+
+IDEs - Integrated development environment
+
+A compiled language is translated into code readable by the target machine during development using a compiler.
+
+Code completion is an IDE feature that takes educated guesses about what you might be trying to type next, and offers suggestions to complete it for you.
+
+The PATH variable tells the operating system where to find executables.
+
+" [time_to_automate < (time_to_perform * amount_of_times_done)"
+
+"Forensic value, in relation to automation, is the value we get while debugging from properly logging every action our automation scripts take."
+
+"A virtual machine, or VM, is a computer simulated through software. It simulates all the necessary hardware to the operating system that's running inside the machine."
