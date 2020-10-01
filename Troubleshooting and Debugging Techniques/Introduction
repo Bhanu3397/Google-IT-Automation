@@ -1,0 +1,26 @@
+man strace.(The strace command shows us all the system calls our program made. System calls are the calls that the programs running in our computer make to the running kernel.) strace is a tool help you find the systemcalls made by an application while running it.
+document every major issue while solving/after solving it.
+
+Gathering information is the first step taken when problem solving.
+finding the root cause is the second step when problem solving.
+Long-term remediation is part of the final step when problem solving.
+
+The tcpdump tool is a powerful command-line analyzer that captures or "sniffs" TCP/IP packets.
+Wireshark is an open source tool for profiling network traffic and analyzing TCP/IP packets.
+the ltrace tool is used to look at library calls made by the software.(https://linux.die.net/man/1/ltrace)
+
+Reproduction Case:- Verify if the problem is present or not.
+
+/var/log/syslog -- linux
+/library/logs -- Mac
+event viewer -- windows.
+
+iotop -- lets us see which process are using most input and output
+iostat, vmstat, ionice.
+iftop-- current traffic in network.
+rsync -- backing up data.(-bwlimit)
+trickle -- to limit the bandwidth used.
+nice -- to reduce the prority of the process.
+
+Dealing with Intermittent Issues:-
+Power cycling releases resources stored in cache or memory, which gets rid of the problem.

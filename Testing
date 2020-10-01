@@ -1,0 +1,8 @@
+What is automated testing?
+Automated testing uses software to execute your code and compare the actual results with the results you expect.
+Compare this with exploratory or manual testing, where a human typically follows instructions in a test plan to verify that software functions as expected.
+Manual testing has its benefits. But as your code base grows in size, testing all features manually (including edge cases) can become repetitive, tedious, and error prone.
+Automated testing can help eliminate some of this burden and enable manual testers to focus on what they do best: ensuring that your users will have a positive experience with your software.
+
+The test pyramid
+When we think about automated testing, it's common to separate tests into layers. Mike Cohn proposes this concept, known as the test pyramid, in his book Succeeding with Agile.
