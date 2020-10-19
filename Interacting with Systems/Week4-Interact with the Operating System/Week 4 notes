@@ -1,0 +1,15 @@
+env :-  Displays all environment variables in bash.
+echo $PATH Displays path. The shell uses this environment variable to figure out where to look for executable files, and we call them while specifying a directory. All those directories listed there are where the shell will look for programs.
+
+/usr/sbin/temp is not listed in PATH variable by default.
+
+Command Line Arguments:-
+Where are the command line arguments stored?
+sys:- The list of arguments are stored in the sys module.
+
+Exit Status:- the value returned by a program to shell
+
+"wc(word count)" filename outputs the word count and line in the file.
+
+echo $? returns boolean.
+
